@@ -26,6 +26,10 @@ function getVarType($invar)
 	{
 		return "Date";
 	}
+	if($boom[0] == "decimal")
+	{
+		return "BigDecimal";
+	}
 	if($boom[0] == "timestamp")
 	{
 		return "Date";
@@ -205,6 +209,7 @@ import javax.persistence.Id;
 
 
 import java.util.Date;
+import java.math.BigDecimal;
 
 
 /**
