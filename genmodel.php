@@ -130,6 +130,10 @@ function getDbType($vartype)
 	{
 		return "setTimestamp";
 	}
+	if($vartype == "BigDecimal")
+	{
+		return "setBigDecimal";
+	}
 	return "setString";
 }
 
