@@ -14,6 +14,10 @@ function getVarType($invar)
 	{
 		return "int";
 	}
+	if($boom[0] == "double")
+	{
+		return "double";
+	}
 	if($boom[0] == "tinyint")
 	{
 		return "int";
@@ -121,6 +125,10 @@ function getDbType($vartype)
 	if($vartype == "int")
 	{
 		return "setInt";
+	}
+	if($vartype == "double")
+	{
+		return "setDouble";
 	}
 	if($vartype == "String")
 	{
