@@ -405,6 +405,17 @@ if(($autoId >= 0 )|| (  $primaryId >= 0 ) )
 						new java.sql.Timestamp('.$baseclassname.".".$eachvar['varfunc'].'().getTime()); 
 							';
 		}
+		else if(($eachvar['vartype'] == 'String') && ( $eachvar['Null'] == 'NO') &&
+						( $eachvar['Default'] != '') )
+		{
+						$daoStr = $daoStr.'
+					if('.$baseclassname.'.'.$eachvar['varfunc'].'() == null)
+					{
+					'.$baseclassname.'.'.$eachvar['setfunc'].'("'. $eachvar['Default'] .'"'.');
+					}
+					';
+
+		}
 	}
 
 
