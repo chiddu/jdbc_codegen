@@ -1,0 +1,77 @@
+            [Tables_in_ndb] => experience
+            [Tables_in_ndb] => location
+            [Tables_in_ndb] => location_services
+            [Tables_in_ndb] => order_description
+            [Tables_in_ndb] => order_details
+            [Tables_in_ndb] => order_doctor_type
+            [Tables_in_ndb] => order_info
+            [Tables_in_ndb] => order_location
+            [Tables_in_ndb] => order_package
+            [Tables_in_ndb] => order_service
+            [Tables_in_ndb] => order_status
+            [Tables_in_ndb] => order_status_log2
+            [Tables_in_ndb] => order_status_log_dummy
+            [Tables_in_ndb] => order_status_transit
+            [Tables_in_ndb] => order_symptoms
+            [Tables_in_ndb] => order_user
+            [Tables_in_ndb] => pages
+            [Tables_in_ndb] => pathology_packages
+            [Tables_in_ndb] => pathology_test_types
+            [Tables_in_ndb] => pathology_test_types_test
+            [Tables_in_ndb] => pathology_tests
+            [Tables_in_ndb] => pathology_time_slots
+            [Tables_in_ndb] => pharma_order_details
+            [Tables_in_ndb] => pharma_order_info
+            [Tables_in_ndb] => phathology_booking
+            [Tables_in_ndb] => role
+            [Tables_in_ndb] => service_status
+            [Tables_in_ndb] => service_unit_map
+            [Tables_in_ndb] => service_unit_vendor
+            [Tables_in_ndb] => services
+            [Tables_in_ndb] => services_category
+            [Tables_in_ndb] => states
+            [Tables_in_ndb] => status
+            [Tables_in_ndb] => symptoms
+            [Tables_in_ndb] => test_client
+            [Tables_in_ndb] => type
+            [Tables_in_ndb] => user_role
+            [Tables_in_ndb] => users
+            [Tables_in_ndb] => vendor_category
+            [Tables_in_ndb] => vendor_experience
+            [Tables_in_ndb] => vendor_order
+            [Tables_in_ndb] => vendor_packages
+            [0] => vendor_packages
+        )
+
+    [82] => Array
+        (
+            [Tables_in_ndb] => vendor_profile
+            [0] => vendor_profile
+        )
+
+    [83] => Array
+        (
+            [Tables_in_ndb] => vendor_service
+            [0] => vendor_service
+        )
+
+    [84] => Array
+        (
+            [Tables_in_ndb] => vendor_service1
+            [0] => vendor_service1
+        )
+
+    [85] => Array
+        (
+            [Tables_in_ndb] => vendor_test
+            [0] => vendor_test
+        )
+
+    [86] => Array
+        (
+            [Tables_in_ndb] => vendor_time_slots1
+            [0] => vendor_time_slots1
+        )
+
+)
+
